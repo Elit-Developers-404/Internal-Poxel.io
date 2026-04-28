@@ -1,6 +1,6 @@
 const siteConfig = {
   "poxel.io": {
-    mainScript: "https://raw.githubusercontent.com/TJGTA3/rectehoststuff/refs/heads/main/veck.js",
+    mainScript: "https://raw.githubusercontent.com/Elit-Developers-404/Internal-Poxel.io/refs/heads/main/poxel.io",
   },
   "veck.io": {
     mainScript: "https://raw.githubusercontent.com/TJGTA3/rectehoststuff/refs/heads/main/veck.js",
