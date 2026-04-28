@@ -7,7 +7,7 @@
 // @match        *://poxel.io/*
 // @icon         https://i.ibb.co/1fLPnkZK/logo.png
 // @grant        GM_xmlhttpRequest
-// @require      https://raw.githubusercontent.com/Recte-Development/publicly-hosted/refs/heads/main/adblock.js
+// @require      https://raw.githubusercontent.com/Elit-Developers-404/Internal-Poxel.io/refs/heads/main/Adblock.js
 // @require      https://raw.githubusercontent.com/Metehan-Developer/Elit-Games/refs/heads/main/Main.js
 // @connect      raw.githubusercontent.com
 // @run-at       document-start
