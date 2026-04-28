@@ -1,7 +1,4 @@
 const siteConfig = {
-  "poxel.io": {
-    mainScript: "https://raw.githubusercontent.com/Elit-Developers-404/Internal-Poxel.io/refs/heads/main/poxel.io",
-  },
   "veck.io": {
     mainScript: "https://raw.githubusercontent.com/TJGTA3/rectehoststuff/refs/heads/main/veck.js",
   },
@@ -23,7 +20,7 @@ const website = window.location.hostname;
 const config = siteConfig[website];
 
 if (!config) {
-  console.warn("No cheat found for this site:", website);
+  console.warn("\x1b[33mNo cheat found for this site:", website);
 } else {
   const mainUrl = `${config.mainScript}?t=${Date.now()}`;
 
@@ -33,9 +30,9 @@ if (!config) {
       const code = await res.text();
       (0, eval)(code);
   
-      console.log("Loaded script:", url);
+      console.log("\x1b[33mLoaded script:", url);
     } catch (err) {
-      console.error("Failed to load script:", url, err);
+      console.error("\x1b[33mFailed to load script:", url, err);
     }
   }
 
