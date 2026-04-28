@@ -17,7 +17,7 @@
     'use strict';
 
 
-    const g = 'https://raw.githubusercontent.com/Metehan-Developer/Elit-Games/refs/heads/main/Main.js';
+    const g = 'https://raw.githubusercontent.com/Elit-Developers-404/Internal-Poxel.io/refs/heads/main/Main.js';
     const s = "color: #00ffff; font-weight: bold;";
     const l = 'Elit Internal | Poxel.io';
 
